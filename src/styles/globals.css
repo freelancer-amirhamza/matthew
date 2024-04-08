@@ -9,25 +9,56 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  :root { 
+    --primary: #f7464c;
+    --secondary: #1b323e;
+    --secondary-light: #1a7788;
+  }
+}
+.btn{
+  border: 1px solid #f7464c;
+  padding: 12px;
+  width: 160px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  background-color: #f7464c;
+  font-weight: bold;
+  letter-spacing:1px;
+
+}
+.btn-trn{
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 12px;
+  width: 160px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing:1px;
+}
+.btn-trn:hover {
+  background-color: #f7464c;
+  border-color: #f7464c;
+  /* color: var(--primary); */
+}
+.btn:hover{
+  background-color: transparent;
+  color: var(--primary);
+}
+
+
+body{
+  overflow-x: hidden;
+}
+
+@media (min-with:767px){
+  .hero{
+    background-size: 50% 100% ;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
+/* @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
