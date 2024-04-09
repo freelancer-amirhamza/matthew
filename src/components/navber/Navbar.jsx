@@ -88,7 +88,7 @@ const Navbar = () => {
           <div className="buttons flex gap-3 items-center ">
             <button className=" btn-trn items-center justify-center bg-transparent border-pink-600 lg:flex hidden "> <Link href={'/'} >login </Link> </button>
             <button className="btn lg:flex hidden justify-center "> <Link href={'/'} >take a  quiz </Link> </button>
-            <Link className='py-3 px-8 md:px-1 bg-white text-primary text-3xl font-extrabold' href='/' ><TiThMenu onClick={() => setActive(!active)} /></Link>
+            <Link className='py-[11px] px-8 md:px-1 bg-white text-primary text-3xl font-extrabold' href='/' ><TiThMenu onClick={() => setActive(!active)} /></Link>
             
           </div>
         </div>

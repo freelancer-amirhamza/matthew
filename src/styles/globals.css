@@ -17,7 +17,7 @@
 }
 .btn{
   border: 1px solid #f7464c;
-  padding: 12px;
+  padding: 14px;
   width: 160px;
   text-transform: uppercase;
   font-size: 0.9rem;
@@ -29,7 +29,7 @@
 .btn-trn{
   background-color: transparent;
   border: 1px solid white;
-  padding: 12px;
+  padding: 14px;
   width: 160px;
   text-transform: uppercase;
   font-size: 0.9rem;
@@ -50,15 +50,16 @@
 body{
   overflow-x: hidden;
 }
-
-@media (min-with:767px){
-  .hero{
-    background-size: 50% 100% ;
-  }
+@media (max-width: 768px) {
+  /* .hero{
+  background-size:90% 100%;
+  background-position:  center;
+}  */
 }
 
-/* @layer utilities {
+
+@layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-} */
+}
