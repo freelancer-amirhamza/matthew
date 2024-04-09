@@ -3,8 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className=" hero w-full flex  bg-hero-pattern h-auto md:bg-top bg-center   
-    bg-no-repeat  bg-cover  z-0 md:absolute 
-    top-10">
+    bg-no-repeat  bg-cover  -z-0 -mt-32 ">
     <div className=" w-full h-full bg-gradient-to-t from-secondary to-transparent  ">
         <div className="container mx-auto flex w-full flex-col items-center justify-center">
           <div className="flex flex-col items-center text-gray-200 gap-2 py-3 md:pt-60 ">
@@ -29,7 +28,7 @@ const Hero = () => {
              hover:bg-white hover:text-primary uppercase font-semibold tracking-wider text-white '
             type='submit'> start here</button>
           </div>
-          <div className=" flex flex-col md:flex-row gap-5 mx-auto w-6/12 md:w-8/12 items-center justify-center py-44 md:py-8 mb-8  ">
+          <div className=" flex flex-col md:flex-row gap-5 mx-auto w-6/12 md:w- items-center justify-center py-44 md:py-8 mb-8  ">
             <img className='  ' src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-0a69723/matthewhussey.com/wp-content/uploads/2021/10/sec1-img01.png" alt="amirhamza" />
             <img className='  ' src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-0a69723/matthewhussey.com/wp-content/uploads/2021/10/sec1-img02.png" alt="amirhamza" />
             <img className=' ' src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-0a69723/matthewhussey.com/wp-content/uploads/2021/10/sec1-img03.png" alt="amirhamza" />

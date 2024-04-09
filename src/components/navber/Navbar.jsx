@@ -67,11 +67,11 @@ const Navbar = () => {
 
 
   return (
-      <div className='relative z-50'>
+      <div className=' z-50'>
       <div className='flex  bg-[#ffb63d] uppercase underline font-semibold text-md w-full
       h-10 items-center justify-center  '> <Link href={'/'}> Learn more about my book, <span className="italic"> love life</span> </Link> </div>
       
-      <div className="navbar bg-secondary md:bg-transparent text-white w-full  h-[120px] ">
+      <div className="navbar relative  bg-secondary md:bg-transparent text-white w-full  h-[120px] ">
         <div className="wrapper w-full h-full px-4  flex items-center justify-between ">
           <div className="logo w-52 h-52 ml-6  flex items-center">
             <img className='w-full h-full ' src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-0a69723/matthewhussey.com/wp-content/uploads/2021/10/MH-Logo-white-1.svg" alt="amirhamza" />
