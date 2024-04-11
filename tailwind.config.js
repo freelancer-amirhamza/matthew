@@ -18,7 +18,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-0a69723/matthewhussey.com/wp-content/uploads/2021/10/sec1-bg.jpg')",
-        'footer-texture': "url('/img/footer-texture.png')",
+        'love-life': "url('https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2023/09/LLBook-Hero-e1712156178387.png')",
       },
       colors: {
         "primary" : "#f7464c",

@@ -2,8 +2,8 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className=" hero w-full flex  bg-hero-pattern h-auto md:bg-top bg-center   
-    bg-no-repeat  bg-cover  -z-0 -mt-32 ">
+    <div className=" hero w-full flex  bg-hero-pattern h-auto bg-bottom bg-auto md:bg-center   
+    bg-no-repeat  md:bg-cover  -z-0 -mt-32 ">
     <div className=" w-full h-full bg-gradient-to-t from-secondary to-transparent  ">
         <div className="container mx-auto flex w-full flex-col items-center justify-center">
           <div className="flex flex-col items-center text-gray-200 gap-2 py-3 md:pt-60 ">
