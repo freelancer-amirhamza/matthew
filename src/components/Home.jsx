@@ -3,6 +3,7 @@ import Hero from './hero/Hero'
 import Story from './story/Story'
 import LoveLife from './love-life'
 import Guide from './guide/Guide'
+import Plan from './plan'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
     <Story/>
     <LoveLife/>
     <Guide/>
+    <Plan/>
     </>
   )
 }

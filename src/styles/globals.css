@@ -47,14 +47,25 @@
 }
 
 
+
 body{
   overflow-x: hidden;
 }
-@media (max-width: 768px) {
-  /* .hero{
-  background-size:90% 100%;
-  background-position:  center;
-}  */
+@media (min-width: 768px) {
+  .plan-line:before {
+    position: absolute;
+    content: "";
+    background-image: url(https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/site/wp-content/uploads/2021/05/sec4-line.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1.354vw;
+    height: 33.135vw;
+    z-index: 0;
+    top: 20.4rem;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+  }
 }
 
 

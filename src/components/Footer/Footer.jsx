@@ -58,7 +58,7 @@ const links = [
 const Footer = () => {
   return (
     
-    <div className="section absolute  bg-gray-200 w-full h-max flex flex-col">
+    <div className="section absolute pt-10 bg-gray-200 w-full h-max flex flex-col">
       <div className="container mx-auto">
         <div className=" flex md:flex-row items-center text-center flex-col w-full h-full md:items-start justify-center gap-6 ">
           {links.map(({title, text0, text1, text2, text3, 
