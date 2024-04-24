@@ -19,7 +19,7 @@ const Story = () => {
         },
 
     ]
-  return (
+return (
     <>
     <div className="container px-8 mx-auto flex flex-col items-center justify-items-center">
         <div className=" w-full h-full mx-auto items-center py-8 gap-5 justify-center flex flex-col md:flex-row ">
@@ -49,7 +49,7 @@ const Story = () => {
         </div>
     </div>
     </>
-  )
+)
 }
 
 export default Story

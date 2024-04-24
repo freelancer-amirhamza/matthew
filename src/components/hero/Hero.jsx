@@ -30,8 +30,8 @@ const Hero = () => {
           </div>
           <div className=" flex flex-col md:flex-row gap-5 mx-auto w-6/12 md:w- items-center justify-center py-44 md:py-8 mb-8  ">
             <img className='  ' src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-0a69723/matthewhussey.com/wp-content/uploads/2021/10/sec1-img01.png" alt="amirhamza" />
-            <img className='  ' src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-0a69723/matthewhussey.com/wp-content/uploads/2021/10/sec1-img02.png" alt="amirhamza" />
-            <img className=' ' src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-0a69723/matthewhussey.com/wp-content/uploads/2021/10/sec1-img03.png" alt="amirhamza" />
+            <img className='  ' src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/sec1-img02.png" alt="amirhamza" />
+            <img className=' ' src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/sec1-img03.png" alt="amirhamza" />
 
           </div>
         </div>

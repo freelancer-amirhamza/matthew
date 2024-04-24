@@ -105,7 +105,7 @@ const Plan = () => {
             </div>
         </div>
     </>
-  )
+)
 }
 
 export default Plan
