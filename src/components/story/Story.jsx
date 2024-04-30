@@ -40,12 +40,12 @@ return (
         </div>
         <div className=" grid  w-10/12 grid-flow-col-dense gap-4 md:grid-rows-1 grid-rows-2 items-center
         justify-items-center md:py-9  ">
-            <img src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-0a69723/matthewhussey.com/wp-content/uploads/2021/10/sec2-img01.png" alt="" className="" />
-            <img  src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-0a69723/matthewhussey.com/wp-content/uploads/2021/10/sec2-img02.png" alt="" className="" />
-            <img  src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-0a69723/matthewhussey.com/wp-content/uploads/2021/10/sec2-img03.png" alt="" className="" />
-            <img  src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-0a69723/matthewhussey.com/wp-content/uploads/2021/10/sec2-img04.png" alt="" className="" />
-            <img  src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-0a69723/matthewhussey.com/wp-content/uploads/2021/10/sec2-img05.png" alt="" className="" />
-            <img  src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-0a69723/matthewhussey.com/wp-content/uploads/2021/10/sec2-img06.png" alt="" className="" />
+            <img src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/sec2-img01.png" alt="" className="" />
+            <img  src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/sec2-img02.png" alt="" className="" />
+            <img  src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/sec2-img03.png" alt="" className="" />
+            <img  src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/sec2-img04.png" alt="" className="" />
+            <img  src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/sec2-img05.png" alt="" className="" />
+            <img  src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/sec2-img06.png" alt="" className="" />
         </div>
     </div>
     </>

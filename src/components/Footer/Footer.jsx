@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import Count from './Count'
+import Letter from './Letter'
 
 const links = [
   {
@@ -61,6 +62,7 @@ const Footer = () => {
     <div >
     
     <Count  />
+    <Letter/>
     <div className="section absolute pt-10 bg-gray-200 w-full h-max flex flex-col">
       
       <div className="container mx-auto">
