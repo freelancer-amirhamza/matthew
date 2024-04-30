@@ -5,6 +5,7 @@ import LoveLife from './love-life'
 import Guide from './guide/Guide'
 import Plan from './plan'
 import Tutorials from './tutorials/Tutorials'
+import About from './about/About'
 
 const Home = () => {
   return (
@@ -15,6 +16,8 @@ const Home = () => {
     <Guide/>
     <Plan/>
     <Tutorials/>
+
+    <About/>
     </>
   )
 }
