@@ -6,6 +6,7 @@ import Guide from './guide/Guide'
 import Plan from './plan'
 import Tutorials from './tutorials/Tutorials'
 import About from './about/About'
+import Texts from './texts/Texts'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
     <Guide/>
     <Plan/>
     <Tutorials/>
+    <Texts/>
 
     <About/>
     </>
