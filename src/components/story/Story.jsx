@@ -4,12 +4,12 @@ const Story = () => {
     const cards = [
         {
             title: "Understand Men",
-            link: "https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-0a69723/matthewhussey.com/wp-content/uploads/2021/10/sec2-img07.jpg",
+            link: "https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-f702702/matthewhussey.com/wp-content/uploads/2021/10/sec2-img07.jpg",
             text: " My practical advice saves you from confusion and mistakes. "
         },
         {
             title: "Get Lasting Love",
-            link: "https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-0a69723/matthewhussey.com/wp-content/uploads/2021/10/hompage-sec2-image.jpg",
+            link: "https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-f702702/matthewhussey.com/wp-content/uploads/2021/10/hompage-sec2-image.jpg",
             text: " Learn to meet, attract and keep your ideal man forever. "
         },
         {
