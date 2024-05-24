@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../Button'
 
 const About = () => {
   return (
@@ -14,10 +15,7 @@ const About = () => {
                     <p className=" ">His proven approach inspires women to find love through advice that is honest, authentic and practical; so they not only get the relationship they deserve but feel confident and in control of their own happiness. </p>
                     <p className=" ">Matthew’s advice reaches over 10 million followers weekly and his YouTube videos have been viewed over 380 million times. </p>
                 </div>
-                <button 
-                className='md:w-6/12 w-full py-4  text-[15px] bg-primary border border-primary
-                hover:bg-white hover:text-primary uppercase font-semibold tracking-wider text-black '
-                type='submit'> Read my story</button>
+                <Button title='Read my story'/>
             </div>
             <div className="flex flex-1 w-full "></div>
         </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../Button'
 
 const Hero = () => {
   return (
@@ -23,10 +24,7 @@ const Hero = () => {
             className='text-[15px] py-5  md:text-xl md:text-start md:px-8 bg-gray-300 outline-none text-center placeholder:text-gray-600
             w-full md:w-10/12 '
             type="text" name="name" id="search" />
-            <button 
-            className='md:w-4/12 w-full py-5 md:text-xl  text-[15px] bg-primary border border-primary
-             hover:bg-white hover:text-primary uppercase font-semibold tracking-wider text-white '
-            type='submit'> start here</button>
+            <Button title='start here'/>
           </div>
           <div className=" flex flex-col md:flex-row gap-5 mx-auto w-6/12 md:w- items-center justify-center py-44 md:py-8 mb-8  ">
             <img className='  ' src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-0a69723/matthewhussey.com/wp-content/uploads/2021/10/sec1-img01.png" alt="amirhamza" />

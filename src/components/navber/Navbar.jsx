@@ -67,7 +67,7 @@ const Navbar = () => {
 
 
   return (
-      <div className=' z-50'>
+      <div className='w-full  flex flex-col relative z-10'>
       <div className='flex  bg-[#ffb63d] uppercase underline font-semibold text-md w-full
       h-12 items-center justify-center  '> <Link href={'/'}> Learn more about my book, <span className="italic"> love life</span> </Link> </div>
       
@@ -94,12 +94,13 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div style={{ transform: active ? "translateX(0%)" : "translateX(100%) ", transition: 'all 0.9s ease-in-out',
+      <div 
+      style={{ transform: active ? "translateX(0%)" : "translateX(100%) ", transition: 'all 0.9s ease-in-out',
                       opacity: active ? '1' : '0.5'  }}
-        className="menu-bar bg-gray-100  w-80 h-screen  absolute top-0 right-0  z-10   ">
+        className={`menu-bar bg-gray-100  w-80 min-h-full   absolute top-0 right-0  z-10 ${ active ? 'translate-x-0' : 'translate-x-full  '}`} >
         <ImCross onClick={() => setActive(!active)}
         className='absolute font-mono text-white right-0 mr-8 mt-5  bg-primary w-9 h-9 p-[2px]  cursor-pointer ' />
-          <ul className='absolute top-[75px]  flex w-full flex-col gap-3 '>
+          <ul className='absolute top-[75px] bg-gray-100 flex w-full flex-col gap-3 '>
             <div className='flex flex-col  text-xl uppercase font-bold tracking-wide text-secondary  '>
               {links.map(({id, title, link}) => {
                 return(

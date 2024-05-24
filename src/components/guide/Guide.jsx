@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../Button'
 
 const Guide = () => {
   return (
@@ -12,18 +13,18 @@ const Guide = () => {
                     <p className=" text-secondary w-full px-0 ">If you’re frustrated and tired of trying to figure out relationships on your own, I’m the partner you’ve been searching for. <br /> <br />
                         As the leading love life expert and confidence coach,
                         I’ve helped millions of women just like you get the love life of your dreams through my New York Times bestselling book,
-                         sold-out live seminars, and powerful training videos.
+                        sold-out live seminars, and powerful training videos.
                     </p>
                     <h3 className=" text-blue-400 text-xl font-semibold  "> And I’ll do the same for you.</h3>
                     <p className="text-secondary w-full px-0 "> 
                     Whether you’re brokenhearted from a fresh breakup, confused about what to text him, wondering why men disappear, casually dating but craving a commitment,
-                    or feeling “stuck” and ready to level up your life in all areas – I’ve created a customized resource that will coach you, step-by-step, to get the exact result you want
+                    or feeling “stuck” and ready to level up your life in all areas  I’ve created a customized resource that will coach you, step-by-step, to get the exact result you want
                     </p>
                     <div className='w-full flex'>
-                    <button className="bg-primary uppercase p-3 hover:bg-white md:w-fit
-                     w-full  flex items-center justify-center text-white hover:border-2 
-                    hover:text-primary hover:border-primary font-semibold tracking-wider
-                    md:px-10    "> Start Here </button>
+                    
+                    <Button 
+                    className="py-2 text-black "
+                    title='start here'/>
                     </div>
                 </div>
                 <div className="hidden md:flex w-5/12"></div>
