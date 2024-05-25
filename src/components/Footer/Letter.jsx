@@ -11,10 +11,10 @@ const Letter = () => {
                 <img src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/footer-mobile.jpg" alt="" 
                 className="md:hidden " />
             </div>
-            <div className="w-full  min-h-max  flex text-center  flex-col items-center text-white justify-center gap-5  px-10 md:px-0 ">
-                <h3 className="text-[2.8rem] md:text-3xl uppercase tracking-widest font-semibold "> Get More Than Just Dating Advice</h3>
-                <h1 className="text-8xl font-bold  ">Fall In Love</h1>
-                <h2 className="text-6xl uppercase font-semibold ">With Your Life </h2>
+            <div className="w-full  min-h-max  flex text-center  flex-col items-center text-white justify-center gap-5  px-6 md:px-0 ">
+                <h3 className="text-[2.5rem] md:text-3xl uppercase tracking-widest font-semibold "> Get More Than Just Dating Advice</h3>
+                <h1 className="text-6xl font-bold  ">Fall In Love</h1>
+                <h2 className="text-4xl uppercase font-semibold ">With Your Life </h2>
                 <span className="md:text-3xl text-[2.1rem] px-4 ">Let’s get your personalized solution. What’s your name? </span>
                 <div className="w-full md:w-10/12 flex flex-col md:py-4 gap-3 md:items-center md:flex-row md:justify-center ">
                 <input placeholder=" First Name "

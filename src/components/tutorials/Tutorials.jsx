@@ -42,7 +42,7 @@ const Tutorials = () => {
             <div className="w-full h-[2px] bg-blue-400  "></div>
           </div>
           <div className="flex justify-center items-center w-full h-full  ">
-            <h2 className=" uppercase text-3xl font-semibold  ">
+            <h2 className=" uppercase text-3xl text-center font-semibold  ">
               {" "}
               The Latest Love Life Advice{" "}
             </h2>
@@ -56,43 +56,43 @@ const Tutorials = () => {
           </div>
           <div className="flex flex-col w-full mx-auto md:flex-row ">
             <button
-              className=" border border-blue-400 w-full h-28 text-4xl uppercase 
+              className=" border border-blue-400 w-full h-28 text-3xl uppercase 
               text-secondary md:text-sm md:border-t-[1px] md:border-l-0 md:h-16   "
             >
               All{" "}
             </button>
             <button
-              className="border border-blue-400 w-full h-28 text-4xl uppercase 
+              className="border border-blue-400 w-full h-28 text-3xl uppercase 
               text-secondary md:text-sm md:border-t-[1px] md:border-l-0 md:h-16  border-t-0 "
             >
               UNDERSTANDING MEN{" "}
             </button>
             <button
-              className="border border-blue-400 w-full h-28 text-4xl uppercase 
+              className="border border-blue-400 w-full h-28 text-3xl uppercase 
               text-secondary md:text-sm md:border-t-[1px] md:border-l-0 md:h-16  border-t-0 "
             >
               DATING{" "}
             </button>
             <button
-              className="border border-blue-400 w-full h-28 text-4xl uppercase 
+              className="border border-blue-400 w-full h-28 text-3xl uppercase 
               text-secondary md:text-sm md:border-t-[1px] md:border-l-0 md:h-16  border-t-0 "
             >
               TEXTING AND COMMUNICATION{" "}
             </button>
             <button
-              className="border border-blue-400 w-full h-28 text-4xl uppercase 
+              className="border border-blue-400 w-full h-28 text-3xl uppercase 
               text-secondary md:text-sm md:border-t-[1px] md:border-l-0 md:h-16  border-t-0 "
             >
               COMMITMENT
             </button>
             <button
-              className=" border border-blue-400 w-full h-28 text-4xl uppercase 
+              className=" border border-blue-400 w-full h-28 text-3xl uppercase 
               text-secondary md:text-sm md:border-t-[1px] md:border-l-0 md:h-16  border-t-0 "
             >
               HEARTBREAK
             </button>
             <button
-              className="border border-blue-400 w-full h-28 text-4xl uppercase 
+              className="border border-blue-400 w-full h-28 text-3xl uppercase 
               text-secondary md:text-sm md:border-t-[1px] md:border-l-0 md:h-16  border-t-0 "
             >
               CONFIDENCE

@@ -84,8 +84,14 @@ const Changes = () => {
                   }}
                   pagination={{
                     clickable: true,
+                    
                   }}
-                  navigation={true}
+                  navigation={{
+                    clickable: true,
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev'
+                  }}
+                  // navigation={true}
                   loop={true}
                   breakpoints={{
                     640: {
@@ -102,7 +108,7 @@ const Changes = () => {
               return (
                 
                 <SwiperSlide className='py-10 ' >
-                  <div className="flex md:flex-row flex-col md:ml-[75px] md:max-w-[900px] md:w-full px-16 md:px-0 h-full items-center justify-center bg-gray-100 ">
+                  <div className="flex md:flex-row flex-col md:ml-[75px] md:max-w-[900px] md:w-full  md:px-0 h-full items-center justify-center bg-gray-100 ">
                   <div className="w-full h-full md:w-5/12  flex items-center justify-center  ">
                   <img
                     src={image}
@@ -116,19 +122,19 @@ const Changes = () => {
                     alt=""
                     className="-mt-6 w-16 z-10 h-auto "
                   />
-                  <div className="flex flex-col w-full md:w-10/12  h-full items-center justify-center px-10 py-11 md:py-4 ">
-                    <h2 className="w-full md:text-xl text-4xl font-bold text-center md:text-start tracking-wide border-b-secondary-light ">
+                  <div className="flex flex-col w-full md:w-10/12  h-full items-center justify-center px-5 py-11 md:py-4 ">
+                    <h2 className="w-full md:text-xl text-3xl font-bold text-center md:text-start tracking-wide border-b-secondary-light ">
                       {title}{" "}
                     </h2>
                     <div className=" w-full h-[1px] bg-secondary-light my-10 md:my-5 "></div>
-                    <span className="w-full md:text-sm text-4xl font-light  "> {text} </span>
+                    <span className="w-full md:text-sm text-[1.6rem] font-light  "> {text} </span>
                   </div>
                   <div className=" flex w-full pb-10 h-full md:w-10/12 md:px-10 items-center justify-center ">
                     <div className="bg-secondary-light w-10 h-[2px] "></div>
-                    <h1 className="text-secondary-light md:text-3xl  text-5xl font-mono ">
+                    <h1 className="text-secondary-light md:text-3xl  text-4xl font-mono ">
                       {name}{" "}
                     </h1>
-                    <h3 className="text-4xl md:text-xl text-secondary w-full  md:-mr-0 -mr-20 ml-10 flex ">
+                    <h3 className="text-3xl md:text-xl text-secondary w-full  md:-mr-0 -mr-20 ml-10 flex ">
                       {address}{" "}
                     </h3>
                     <div className="bg-secondary-light w-9/12 md:w-full md:-ml-8 flex mt-4 h-[1px]"></div>
@@ -142,9 +148,9 @@ const Changes = () => {
             })}
             </Swiper>
           </div>
-          <div className=" flex items-center justify-between w-full px-6 absolute  ">
-            {/* <FaChevronCircleLeft className=" text-secondary-light w-6 h-6 cursor-pointer " />
-            <FaChevronCircleRight className="swiper-button-next text-secondary-light w-6 h-6 cursor-pointer " /> */}
+          <div className=" flex items-center justify-between w-full px-6 absolute  z-50 ">
+            <FaChevronCircleLeft className="swiper-button-prev text-secondary-light opacity-[0.7] w-6 h-6 cursor-pointer " />
+            <FaChevronCircleRight className="swiper-button-next text-secondary-light opacity-[0.7] w-6 h-6 cursor-pointer " />
           </div>
         </div>
       </div>

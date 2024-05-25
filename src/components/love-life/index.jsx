@@ -7,7 +7,8 @@ const LoveLife = () => {
         <div className=" w-full h-full bg-love-life bg-no-repeat md:bg-cover mx-auto  bg-contain ">
         <div className="container  md:py-16 mx-auto w-full h-full flex flex-col md:flex-row-reverse">
             <div className="flex md:-mr-20  mx-auto w-full h-full items-center justify-center ">
-                <img className='mx-auto w-full h-full p-8 md:p-0  object-cover ' src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2024/01/LL_Book-Mockup-1_Edited-1536x1229.png" alt="" />
+                <img className='mx-auto w-full h-full p-8 md:p-0  object-cover '
+                src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2024/01/LL_Book-Mockup-1_Edited-1536x1229.png" alt="" />
             </div>
             <div className="md:-mr-28 md:pl-20  flex flex-col mx-auto w-full h-full items-center   justify-center ">
               <div className="w-full h-full items-center flex flex-col gap-2 ">

@@ -95,9 +95,9 @@ const Navbar = () => {
       </div>
 
       <div 
-      style={{ transform: active ? "translateX(0%)" : "translateX(100%) ", transition: 'all 0.9s ease-in-out',
+      style={{  transition: 'all 0.9s ease-in-out',
                       opacity: active ? '1' : '0.5'  }}
-        className={`menu-bar bg-gray-100  w-80 min-h-full   absolute top-0 right-0  z-10 ${ active ? 'translate-x-0' : 'translate-x-full  '}`} >
+        className={`menu-bar bg-gray-100  w-80 h-screen ${active ? 'translate-x-0 ' : 'translate-x-full ',active ? '1' : '0.5 ',  'duration-200 ease-out' }   absolute top-0 right-0  z-10 ${ active ? 'translate-x-0' : 'translate-x-full  '}`} >
         <ImCross onClick={() => setActive(!active)}
         className='absolute font-mono text-white right-0 mr-8 mt-5  bg-primary w-9 h-9 p-[2px]  cursor-pointer ' />
           <ul className='absolute top-[75px] bg-gray-100 flex w-full flex-col gap-3 '>
