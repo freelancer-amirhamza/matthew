@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -17,8 +18,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-f702702/matthewhussey.com/wp-content/uploads/2021/10/sec1-bg.jpg')",
-        'love-life': "url('https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2023/09/LLBook-Hero-e1712156178387.png')",
+        'hero-pattern': "url('https://iili.io/dVufHPf.png')",
+        'love-life': "url('https://iili.io/dVA0Dss.png')",
         'news-letter' : "url('https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/footer-sec2-bg.png') "
       },
       colors: {

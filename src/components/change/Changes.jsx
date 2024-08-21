@@ -7,45 +7,53 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
+import slide1 from "../images/change/Rachel-Weinhold.webp";
+import slide2 from "../images/change/Lakshmi-Harilela-2.webp";
+import slide3 from "../images/change/Navneet-Jhawar.webp";
+import slide4 from "../images/change/Sarah-Hyndman-2.webp";
+import slide5 from "../images/change/lavaniya-img.webp";
+import slide6 from "../images/change/nadine-image.webp";
+import clone from "../images/sec3-img03.png";
+import Image from 'next/image';
+
 const Changes = () => {
     const slides = [
         {
-            image:"https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/11/sarah-img-01.jpg",
+            image:slide1,
             title:"Lorem ipsum dolor sit adipisicing elit blanditiis neque ",
             text: "Since I started Matthew’s programs, I realized I needed to work more on my own life. Confidence developed, especially after completing Attraction to Commitment and the Virtual Retreat. I’m now in a new healthy relationship and living a full life I love!  Identifying happiness criteria, connecting with a globalcommunity and nurturing core confidence rebooted my life! THANK YOU!” ",
             name: "Rachel ",
             address: "Hong Kong "
         },
         {
-            image:"https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-b1f0cd6/matthewhussey.com/wp-content/uploads/2021/11/lakshmi-img-01.jpg",
+          image:slide2,
+            text: "Since I started Matthew’s programs, I realized I needed to work more on my own life. Confidence developed, especially after completing Attraction to Commitment and the Virtual Retreat. I’m now in a new healthy relationship and living a full life I love!  Identifying happiness criteria, connecting with a globalcommunity and nurturing core confidence rebooted my life! THANK YOU!” ",
+            name: "Lakshmi ",
+            address: "Hong Kong "
+        },
+        {
+          image:slide3,
+            title:"Lorem ipsum dolor sit adipisicing elit blanditiis neque ",
+            text: "Since I started Matthew’s programs, I realized I needed to work more on my own life. Confidence developed, especially after completing Attraction to Commitment and the Virtual Retreat. I’m now in a new healthy relationship and living a full life I love!  Identifying happiness criteria, connecting with a globalcommunity and nurturing core confidence rebooted my life! THANK YOU!” ",
+            name: "Navneet-Jhawar ",
+            address: "Hong Kong "
+        },
+        {
+          image:slide4,
             title:"Lorem ipsum dolor sit adipisicing elit blanditiis neque ",
             text: "Since I started Matthew’s programs, I realized I needed to work more on my own life. Confidence developed, especially after completing Attraction to Commitment and the Virtual Retreat. I’m now in a new healthy relationship and living a full life I love!  Identifying happiness criteria, connecting with a globalcommunity and nurturing core confidence rebooted my life! THANK YOU!” ",
             name: "Rachel ",
             address: "Hong Kong "
         },
         {
-            image:"https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-b1f0cd6/matthewhussey.com/wp-content/uploads/2021/11/navneet-img-01.jpg",
+            image:slide5,
             title:"Lorem ipsum dolor sit adipisicing elit blanditiis neque ",
             text: "Since I started Matthew’s programs, I realized I needed to work more on my own life. Confidence developed, especially after completing Attraction to Commitment and the Virtual Retreat. I’m now in a new healthy relationship and living a full life I love!  Identifying happiness criteria, connecting with a globalcommunity and nurturing core confidence rebooted my life! THANK YOU!” ",
             name: "Rachel ",
             address: "Hong Kong "
         },
         {
-            image:"https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-f702702/matthewhussey.com/wp-content/uploads/2021/08/Rachel-Weinhold-1.jpg",
-            title:"Lorem ipsum dolor sit adipisicing elit blanditiis neque ",
-            text: "Since I started Matthew’s programs, I realized I needed to work more on my own life. Confidence developed, especially after completing Attraction to Commitment and the Virtual Retreat. I’m now in a new healthy relationship and living a full life I love!  Identifying happiness criteria, connecting with a globalcommunity and nurturing core confidence rebooted my life! THANK YOU!” ",
-            name: "Rachel ",
-            address: "Hong Kong "
-        },
-        {
-            image:"https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-f702702/matthewhussey.com/wp-content/uploads/2021/10/selena-1.jpg",
-            title:"Lorem ipsum dolor sit adipisicing elit blanditiis neque ",
-            text: "Since I started Matthew’s programs, I realized I needed to work more on my own life. Confidence developed, especially after completing Attraction to Commitment and the Virtual Retreat. I’m now in a new healthy relationship and living a full life I love!  Identifying happiness criteria, connecting with a globalcommunity and nurturing core confidence rebooted my life! THANK YOU!” ",
-            name: "Rachel ",
-            address: "Hong Kong "
-        },
-        {
-            image:"https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-f702702/matthewhussey.com/wp-content/uploads/2021/10/Melissa.jpg",
+          image:slide6,
             title:"Lorem ipsum dolor sit adipisicing elit blanditiis neque ",
             text: "Since I started Matthew’s programs, I realized I needed to work more on my own life. Confidence developed, especially after completing Attraction to Commitment and the Virtual Retreat. I’m now in a new healthy relationship and living a full life I love!  Identifying happiness criteria, connecting with a globalcommunity and nurturing core confidence rebooted my life! THANK YOU!” ",
             name: "Rachel ",
@@ -55,20 +63,20 @@ const Changes = () => {
   return (
     <>
       <div
-        className=" bg-[url('https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/sec6-bg.jpg')]
-    bg-no-repeat bg-cover w-full h-full items-center justify-center overflow-x-auto "
+        className=" bg-[url('https://iili.io/dV7Cfx2.webp')]
+    bg-no-repeat bg-cover w-full h-full items-center justify-center overflow-x-auto -mt-36 "
       >
         <div className=" w-full flex flex-col h-full items-center justify-center ">
-          <div className="flex w-full h-full items-center justify-center ">
-            <h2 className="tracking-wider text-4xl uppercase font-semibold text-secondary ">
+          <div className="flex w-full h-full items-center justify-center py-14 mt-32 ">
+            <h2 className="tracking-wider text-8xl uppercase font-semibold text-secondary ">
               lives
             </h2>
-            <h2 className=" font-mono text-4xl uppercase font-semibold text-secondary-light ">
+            <h2 className=" font-mono text-7xl uppercase font-semibold text-secondary-light ">
               Changed
             </h2>
           </div>
 
-          <div className=" gap-10 w-full relative h-full items-center justify-center flex  "
+          <div className=" gap-5 w-full relative h-full items-center justify-center flex  "
           
           m
             // 
@@ -99,8 +107,8 @@ const Changes = () => {
                       spaceBetween: 10,
                     },
                     768: {
-                      slidesPerView: 1.4,
-                      spaceBetween: 10,
+                      slidesPerView: 2,
+                      spaceBetween: 5,
                     },
                   }}
                 >
@@ -108,17 +116,17 @@ const Changes = () => {
               return (
                 
                 <SwiperSlide className='py-10 ' >
-                  <div className="flex md:flex-row flex-col md:ml-[75px] md:max-w-[900px] md:w-full  md:px-0 h-full items-center justify-center bg-gray-100 ">
-                  <div className="w-full h-full md:w-5/12  flex items-center justify-center  ">
-                  <img
+                  <div className="flex md:flex-row flex-col md:ml-[75px] md:max-w-[800px] md:w-full  md:px-0 h-full items-center justify-center bg-gray-100 ">
+                  <div className="w-full h-full md:w-4/12  flex items-center justify-center  ">
+                  <Image
                     src={image}
                     alt=""
                     className="w-full h-full md:min-h-[450px]  object-cover "
                   />
                   </div>
                   <div className="w-full md:w-8/12 flex flex-col items-center justify-center h-full">
-                  <img
-                    src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/sec3-img03.png"
+                  <Image
+                    src={clone}
                     alt=""
                     className="-mt-6 w-16 z-10 h-auto "
                   />
@@ -148,7 +156,7 @@ const Changes = () => {
             })}
             </Swiper>
           </div>
-          <div className=" flex items-center justify-between w-full px-6 absolute  z-50 ">
+          <div className=" flex items-center justify-between w-full px-6 absolute mt-56 z-50 ">
             <FaChevronCircleLeft className="swiper-button-prev text-secondary-light opacity-[0.7] w-6 h-6 cursor-pointer " />
             <FaChevronCircleRight className="swiper-button-next text-secondary-light opacity-[0.7] w-6 h-6 cursor-pointer " />
           </div>

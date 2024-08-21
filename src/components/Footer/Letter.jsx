@@ -1,14 +1,23 @@
-import React from 'react'
+import React from 'react';
+import bg from "../images/footer/footer-sec2-bg.webp";
+import bgMob from "../images/footer/footer-mobile.webp";
+import Image from 'next/image';
+import img1 from "../images/footer/footer-img01.webp";
+import img2 from "../images/footer/footer-img02.webp";
+import img3 from "../images/footer/footer-img03.png";
+import img4 from "../images/footer/footer-img04.webp";
+import img5 from "../images/footer/footer-abc-logo.webp";
+import img6 from "../images/footer/footer-heart-logo.webp";
 
 const Letter = () => {
   return (
     <>
-    <div className="bg-news-letter
-        bg-no-repeat md:bg-cover bg-right-top   ">
+    <div className="bg-no-repeat md:bg-cover bg-right-top  relative ">
+            <Image src={bg} className='absolute object-cover -z-10  '/>
         <div className="w-full h-full  flex flex-col items-center justify-center bg-[#1eacb5] md:bg-transparent md:py-10 ">
             <div className="w-full h-full flex flex-col md:flex-row items-center justify-center ">
             <div className="w-full md:w-6/12 h-full flex  items-center justify-center ">
-                <img src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/footer-mobile.jpg" alt="" 
+                <Image alt="" src={bgMob}
                 className="md:hidden " />
             </div>
             <div className="w-full  min-h-max  flex text-center  flex-col items-center text-white justify-center gap-5  px-6 md:px-0 ">
@@ -30,13 +39,13 @@ const Letter = () => {
         </div>
         <span className="text-gray-100 text-center md:text-xl text-2xl pt-5 ">Matthew Has Been Seen and Featured On: </span>
         <div className="text-white grid w-full h-full md:w-8/12 grid-flow-col-dense gap-4 md:grid-rows-1 grid-rows-2 items-center
-        justify-items-center   ">
-            <img src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/footer-img01.png" alt="" className="" />
-            <img  src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/footer-img02.png" alt="" className="" />
-            <img  src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/footer-img03.png" alt="" className="" />
-            <img  src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/footer-img04.png" alt="" className="" />
-            <img  src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/footer-abc-logo.png" alt="" className="" />
-            <img  src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/footer-heart-logo.png" alt="" className="" />
+        justify-items-center  z-10 ">
+            <Image src={img1} alt='footer'/>
+            <Image src={img2}/>
+            <Image src={img3}/>
+            <Image src={img4}/>
+            <Image src={img5}/>
+            <Image src={img6}/>
         </div>
             </div>
     </div>

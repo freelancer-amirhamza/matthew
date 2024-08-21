@@ -8,6 +8,7 @@ import Tutorials from './tutorials/Tutorials'
 import About from './about/About'
 import Texts from './texts/Texts'
 import Changes from './change/Changes'
+import Events from './events'
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
     <Tutorials/>
     <Changes/>
     <Texts/>
+    <Events/>
     
     <About/>
     </>

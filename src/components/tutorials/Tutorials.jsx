@@ -1,35 +1,43 @@
 import Link from 'next/link'
 import React from 'react'
 import { FaFacebook, FaXTwitter } from "react-icons/fa6";
+import card1 from "../images/tutorials/card1-01.webp";
+import card2 from "../images/tutorials/card1-02.webp";
+import card3 from "../images/tutorials/card-01.webp";
+import card4 from "../images/tutorials/card-02.webp";
+import card5 from "../images/tutorials/card-03.webp";
+import card6 from "../images/tutorials/Rebel-Wilson.webp";
+import clone from "../images/sec3-img03.png";
+import Image from 'next/image';
 
 const Tutorials = () => {
   const cards1 = [
     {
       id: 1,
       title:"how to deal with the fear of never finding your  ",
-      image: "https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2024/04/YT_Thumbnail-3-TOOLS-TO-CHANGE-YOUR-MINDSET-Play-Button.jpg "
+      image: card1,
     },
     {
       id:  2,
       title:"how to deal with the fear of never finding your  ",
-      image: "https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2024/04/YT_Thumbnail-03-14-ply-btn-1.jpg "
+      image: card2,
     },
   ]
   const cards = [
     {
       id: 3,
       title:"how to deal with the fear of never finding your  ",
-      image: "https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2024/04/YT_Thumbnail-03-07-v5-plybtn.jpg "
+      image: card3,
     },
     {
       id: 4,
       title:"how to deal with the fear of never finding your  ",
-      image: "https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2024/03/Matthew-Hussey-YT-03-31.jpg "
+      image: card4,
     },
     {
       id: 5,
       title:"how to deal with the fear of never finding your  ",
-      image: "https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2024/03/Matthew-Hussey-YT-03-24.jpg "
+      image: card5,
     },
   ]
   return (
@@ -104,7 +112,7 @@ const Tutorials = () => {
               return (
                 <div key={id} className=" gap-6 flex flex-col">
                   <Link href={"/"}>
-                    <img src={image} alt="" className="" />
+                    <Image src={image} alt="" className="" />
                   </Link>
                   <h3 className="w-full uppercase text-xl md:text-[1rem] tracking-wider font-semibold text-secondary ">
                     {title}{" "}
@@ -144,7 +152,7 @@ const Tutorials = () => {
               return (
                 <div key={id} className=" gap-6 flex flex-col ">
                   <Link href={"/"}>
-                    <img src={image} alt="" className="" />
+                    <Image src={image} alt="" className="" />
                   </Link>
                 <h3 className="w-full uppercase text-xl md:text-[1rem] tracking-wider font-semibold text-secondary ">
                     {title}{" "}
@@ -189,11 +197,11 @@ const Tutorials = () => {
                             
                             <div className=" mx-auto justify-center flex md:flex-row flex-col bg-secondary-light w-full pl-3 ">
                                 <div className="md:w-6/12 bg-white  w-full justify-center items-center flex ">
-                                    <img src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/Rebel-Wilson.jpg" alt="" 
+                                    <Image src={card6} alt="" 
                                     className="  items-center h-full justify-center flex object-cover " />
                                 </div>
                                 <div className=" bg-white md:-ml-5 p-10 gap-4 w-full md:items-start items-center justify-center flex flex-col ">
-                                <img src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/sec3-img03.png" alt=""
+                                <Image src={clone} alt=""
                                 className="" />
                                 <p className=" ">
                                 When you have someone who is a dating guru, an expert, a guy that knows everything that needs to be known about how to

@@ -4,7 +4,7 @@ import Button from '../Button'
 const Guide = () => {
   return (
     <>
-        <div className="section flex w-full bg-no-repeat bg-cover h-max bg-[url('https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/11/home-background-update.jpg')] ">
+        <div className="section flex w-full bg-no-repeat bg-cover h-max bg-[url('https://iili.io/dVR81JS.webp')] ">
             <div className="wrapper w-full h-full">
             <div className="container flex justify-center md:h-full md:w-8/12 md:p-0 w-full px-4 mx-auto h-fit ">
                 <div className="content w-full   flex flex-col gap-8 items-start justify-center py-8 pt-16 md:py-20 ">
@@ -31,7 +31,7 @@ const Guide = () => {
                 
             </div>
             <div className=" w-full md:hidden max-h-full ">
-                    <img className='w-full h-full object-cover '  src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/sec3-img02-mobile-1.png" alt="" />
+                    <img className='w-full h-full object-cover ' src="https://iili.io/dVAmOzv.webp" alt="" />
                 </div>
             </div>
         </div>

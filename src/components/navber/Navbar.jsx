@@ -2,6 +2,13 @@ import React, { useState } from 'react'
 import  Link  from 'next/link';
 import { TiThMenu } from "react-icons/ti";
 import { ImCross } from "react-icons/im";
+import logo from "../images/logo/logo.png"
+import Image from 'next/image.js';
+
+
+
+
+
 
 const Navbar = () => {
 
@@ -69,12 +76,12 @@ const Navbar = () => {
   return (
       <div className='w-full  flex flex-col relative z-10'>
       <div className='flex  bg-[#ffb63d] uppercase underline font-semibold text-md w-full
-      h-12 items-center justify-center  '> <Link href={'/'}> Learn more about my book, <span className="italic"> love life</span> </Link> </div>
+      h-12 items-center justify-center  '> <Link href='/'> Learn more about my book, <span className="italic"> love life</span> </Link> </div>
       
       <div className="navbar relative  bg-secondary md:bg-transparent text-white w-full  h-[120px] ">
         <div className="wrapper w-full h-full px-4  flex items-center justify-between ">
-          <div className="logo w-52 h-52 ml-6  flex items-center">
-            <img className='w-full h-full ' src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-f702702/matthewhussey.com/wp-content/uploads/2021/10/MH-Logo-white-1.svg" alt="amirhamza" />
+          <div className="logo w-36 h-36   flex items-center">
+          <Image className='h-full w-full flex '  src={logo} alt="" />
           </div>
           <div className="links">
             <ul className=' lg:flex gap-8 w-full text-[0.8rem] tracking-wide  uppercase hidden '>

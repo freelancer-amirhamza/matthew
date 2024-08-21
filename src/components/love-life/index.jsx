@@ -1,4 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Book from "../images/love/LL_Book.png";
+import girl from "../images/love/drew.jpg";
+import girl2 from "../images/drew2.webp";
+import clone from "../images/sec3-img03.png";
+import Image from 'next/image';
+
 
 const LoveLife = () => {
   return (
@@ -7,8 +13,8 @@ const LoveLife = () => {
         <div className=" w-full h-full bg-love-life bg-no-repeat md:bg-cover mx-auto  bg-contain ">
         <div className="container  md:py-16 mx-auto w-full h-full flex flex-col md:flex-row-reverse">
             <div className="flex md:-mr-20  mx-auto w-full h-full items-center justify-center ">
-                <img className='mx-auto w-full h-full p-8 md:p-0  object-cover '
-                src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2024/01/LL_Book-Mockup-1_Edited-1536x1229.png" alt="" />
+                <Image className='mx-auto w-full h-full p-8 md:p-0  object-cover '
+                src={Book} alt="" />
             </div>
             <div className="md:-mr-28 md:pl-20  flex flex-col mx-auto w-full h-full items-center   justify-center ">
               <div className="w-full h-full items-center flex flex-col gap-2 ">
@@ -21,10 +27,10 @@ const LoveLife = () => {
                 </div>
               </div>
               <div className="md:flex-row  w-full h-full items-center justify-center flex flex-col">
-                <img className='w-40 h-40 object-cover md:hidden  ' src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2024/03/drew_barrymore_headshot-circle-1012x1024.png" alt="" />
-                <img className='w-36 pr-3  hidden md:flex  h-[173px] object-cover  ' src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2024/02/drew_barrymore_headshot-682x1024.jpg" alt="" />
+                <Image className='w-40 h-40 object-cover md:hidden  ' src={girl} alt="" />
+                <Image className='w-36 pr-3  hidden md:flex  h-[173px] object-cover  ' src={girl2} alt="" />
                 <div className="border-y border-blue-500 my-4 ">
-                  <img className='md:-mt-3 -mt-4 px-0 h-9 md:h-5 ' src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/site/wp-content/uploads/2021/05/sec10-quot.jpg" alt="" />
+                  <Image className='md:-mt-3 -mt-4 px-0 h-9 md:h-5 ' src={clone} alt="" />
                   <p className="md:p-1 p-3 text-zinc-800 ">Matthew’s unique voice is one I return to again and again for both my confidence and my love life . . . perfect for anyone looking for actionable wisdom and a path to reconnecting with themselves.</p>
                   <div className="md:p-[6px] flex p-3 w-full md:gap-10 ">
                     <span className='text-md font-semibold text-zinc-800 tracking-wider ' >—DREW BARRYMORE</span>

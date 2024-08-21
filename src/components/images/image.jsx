@@ -1,0 +1,1 @@
+import sec2Img01 from "./sec2-img01.png";

@@ -1,20 +1,30 @@
-import React from 'react'
+import React from 'react';
+import sec2Img01 from "../images/sec2-img01.png";
+import sec2Img02 from "../images/sec2-img02.png";
+import sec2Img03 from "../images/sec2-img03.png";
+import sec2Img04 from "../images/sec2-img04.png";
+import sec2Img05 from "../images/sec2-img05.png";
+import sec2Img06 from "../images/sec2-img06.png";
+import sec2Img07 from "../images/sec2-img07.jpg";
+import sec2Img08 from "../images/sec2-img08.webp";
+import sec2Img09 from "../images/sec2-img09.jpg";
+import Image from 'next/image';
 
 const Story = () => {
     const cards = [
         {
             title: "Understand Men",
-            link: "https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-f702702/matthewhussey.com/wp-content/uploads/2021/10/sec2-img07.jpg",
+            link: sec2Img07,
             text: " My practical advice saves you from confusion and mistakes. "
         },
         {
             title: "Get Lasting Love",
-            link: "https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-f702702/matthewhussey.com/wp-content/uploads/2021/10/hompage-sec2-image.jpg",
+            link: sec2Img08,
             text: " Learn to meet, attract and keep your ideal man forever. "
         },
         {
             title: "Transform Your Life",
-            link: "https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-0a69723/matthewhussey.com/wp-content/uploads/2021/10/sec2-img09.jpg",
+            link: sec2Img09,
             text: " Unlock core confidence and live the life of your dreams. "
         },
 
@@ -26,7 +36,7 @@ return (
             {cards.map(({title, link, text}) => {
                 return(
                 <div className=" w-full relative ">
-                <img src={link} alt="" 
+                <Image src={link} alt="" 
                 className=" relative w-full h-full object-cover flex z-0" />
                 <div className=" absolute w-full h-full -bottom-[23rem] md:-bottom-52 text-center flex items-center
                 flex-col justify-items-end ">
@@ -40,12 +50,12 @@ return (
         </div>
         <div className=" grid  w-10/12 grid-flow-col-dense gap-4 md:grid-rows-1 grid-rows-2 items-center
         justify-items-center md:py-9  ">
-            <img src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/sec2-img01.png" alt="" className="" />
-            <img  src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/sec2-img02.png" alt="" className="" />
-            <img  src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/sec2-img03.png" alt="" className="" />
-            <img  src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/sec2-img04.png" alt="" className="" />
-            <img  src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/sec2-img05.png" alt="" className="" />
-            <img  src="https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/sec2-img06.png" alt="" className="" />
+            <Image src={sec2Img01} alt=""  />
+            <Image src={sec2Img02} alt=""  />
+            <Image src={sec2Img03} alt=""  />
+            <Image src={sec2Img04} alt=""  />
+            <Image src={sec2Img05} alt=""  />
+            <Image src={sec2Img06} alt=""  />
         </div>
     </div>
     </>

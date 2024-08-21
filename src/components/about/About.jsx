@@ -1,10 +1,13 @@
 import React from 'react'
-import Button from '../Button'
+import Button from '../Button';
+import bg from "../images/hover-cards/sec12-bg.webp"
+import Image from 'next/image';
 
 const About = () => {
   return (
-    <div className=" md:bg-cover bg-no-repeat bg-center  w-full flex items-center justify-center h-full
-    bg-[url('https://cdn-jnadd.nitrocdn.com/oelCgpbWzhAPlAFkDVhzQDcTKKHAUyGY/assets/images/optimized/rev-a178cb9/matthewhussey.com/wp-content/uploads/2021/10/sec12-bg.jpg')] ">
+    <div className=" md:bg-cover bg-no-repeat bg-center relative  w-full flex items-center justify-center h-full
+     ">
+        <Image src={bg} className='absolute object-cover -z-10 hidden md:flex '/>
         <div className="md:container px-6 mx-auto w-full flex flex-col md:flex-row items-center justify-center h-full ">
             <div className=" flex-1   md:px-20 py-5 flex flex-col w-full items-center md:items-start justify-center gap-6 ">
                 <h2 className="text-[2.3rem] md:text-[2.6rem] w-full font-semibold text-secondary tracking-wide ">ABOUT YOUR COACH</h2>
